@@ -8,6 +8,7 @@ def oxford_comma(array)
     index = 0 
     while index < array.length - 2 
       my_string << array[index]
+      index+=1
     end 
     return my_string   
   end 
