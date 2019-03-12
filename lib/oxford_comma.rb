@@ -10,7 +10,7 @@ def oxford_comma(array)
       my_string << array[index] + ", "
       index+=1 
     end 
-    my_string << "and #{array[-1]"
+    my_string << "and #{array[-1]}"
     return my_string   
   end 
 end
