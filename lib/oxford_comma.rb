@@ -7,6 +7,7 @@ def oxford_comma(array)
     my_string = ""
     array.each do |word|
       my_string << word
+    end 
     return my_string   
   end 
 end
