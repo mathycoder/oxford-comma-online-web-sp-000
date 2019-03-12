@@ -5,8 +5,9 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     my_string = ""
-    array.each do |word|
-      my_string << word
+    index = 0 
+    while index < array.length - 2 
+      my_string << array[index]
     end 
     return my_string   
   end 
